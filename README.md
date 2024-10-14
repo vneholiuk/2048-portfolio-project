@@ -9,5 +9,41 @@ The game consists of 2 main parts:
 - game user interface, written in src/index.html with the main.js script, which uses an instance of the Game class.
 
 
-- [DEMO LINK](https://vneholiuk.github.io/2048-portfolio-project/)
+This is a JavaScript-based implementation of the popular puzzle game 2048. The goal of the game is to slide numbered tiles on a grid to combine them and create a tile with the number 2048.
+
+Technologies used
+
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Node.js
+- Webpack
+- Babel
+- Git
+
+How to run the project locally
+
+1. Clone the repository:
+
+  - git clone https://github.com/vneholiuk/2048-portfolio-project.git
+
+2. Navigate to the project directory:
+
+  - cd 2048-portfolio-project
+
+3. Install dependencies (Node.js v14 required):
+
+  - npm install
+
+4. Start the project locally:
+
+  - npm start
+5. Open your browser and go to http://localhost:8080.
+6. Build for production:
+
+  - npm run build
+This will generate a production-ready build in the dist/ folder.
+
+
+- [DEMO LINK](https://vneholiuk.github.io/2048-portfolio-project)
 - [MOCK-UP](https://play2048.co)
